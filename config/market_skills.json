@@ -1,0 +1,36 @@
+{
+  "categories": {
+    "Game Engines": [
+      "Unreal Engine 5",
+      "Unreal Engine 4",
+      "Unity",
+      "Godot"
+    ],
+    "DCC & Procedural Tools": [
+      "Houdini",
+      "Maya",
+      "Blender",
+      "Substance Designer",
+      "Substance Painter"
+    ],
+    "Programming & Scripting": [
+      "Python",
+      "C++",
+      "VEX",
+      "HLSL / GLSL",
+      "C#"
+    ],
+    "AI & Data Workflows": [
+      "Synthetic Data",
+      "PyTorch",
+      "Computer Vision",
+      "NeRF / Gaussian Splatting"
+    ]
+  },
+  "synonyms": {
+    "UE5": "Unreal Engine 5",
+    "UE4": "Unreal Engine 4",
+    "SideFX Houdini": "Houdini",
+    "Python3": "Python"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "profile": {
+    "title": "Senior Technical Artist",
+    "target_roles": ["Technical Artist", "Procedural Environment Artist", "Pipeline TD"]
+  },
+  "skills": {
+    "engine_realtime": [
+      "Unreal Engine 5",
+      "PCG Framework",
+      "Lumen & Nanite",
+      "Blueprint",
+      "Render Pipeline"
+    ],
+    "procedural_dcc": [
+      "Houdini",
+      "HDA Integration",
+      "VEX",
+      "Python in Houdini"
+    ],
+    "automation_scripting": [
+      "Python 3",
+      "PyTorch",
+      "PySide / PyQt",
+      "Git",
+      "CI/CD Pipelines"
+    ],
+    "computer_vision_ai": [
+      "Synthetic Data Generation",
+      "Semantic Segmentation",
+      "COCO Format",
+      "SegFormer fine-tuning"
+    ]
+  }
+}

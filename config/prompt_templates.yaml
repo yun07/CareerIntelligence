@@ -1,0 +1,28 @@
+version: "1.0"
+
+extract_skills_prompt: |
+  You are an expert Technical Recruiter in Games, Real-time VFX, and AI/Synthetic Data.
+  
+  TASK:
+  Analyze the provided Job Description (JD) and evaluate it against the Candidate's Skill Profile.
+  
+  CANDIDATE SKILLS:
+  {my_skills_json}
+  
+  JOB DESCRIPTION:
+  {job_description}
+  
+  OUTPUT FORMAT:
+  Respond ONLY with a valid JSON object matching this structure:
+  {
+    "job_title": "extracted title",
+    "match_score": 85,
+    "matching_skills": ["Unreal Engine 5", "Python"],
+    "missing_skills": ["C++", "HLSL"],
+    "extracted_market_skills": [
+      {"name": "Unreal Engine 5", "category": "Game Engines"},
+      {"name": "Houdini", "category": "DCC & Procedural Tools"},
+      {"name": "C++", "category": "Programming & Scripting"}
+    ],
+    "summary_reason": "Strong fit for procedural workflows, but lacks required C++ engine modification experience."
+  }

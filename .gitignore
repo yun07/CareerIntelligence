@@ -1,0 +1,19 @@
+# 環境變數與 Key
+.env
+
+# Data Lake & SQLite 歷史數據 (防止 Big Data 上傳)
+data/jobs.db
+data/raw/
+*.db
+*.sqlite3
+
+# Python 快取與虛擬環境
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+venv/
+.pytest_cache/
+.vscode/
+.idea/

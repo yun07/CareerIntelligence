@@ -1,0 +1,25 @@
+{
+  "ats_targets": {
+    "greenhouse_companies": [
+      "shrapnel",
+      "epicgames",
+      "embarkstudios"
+    ],
+    "lever_companies": [
+      "unity",
+      "roblox"
+    ]
+  },
+  "search_buckets": [
+    {
+      "bucket_id": "procedural_ta",
+      "keywords": ["Technical Artist", "Procedural", "Houdini"],
+      "location": "Remote"
+    },
+    {
+      "bucket_id": "synthetic_data",
+      "keywords": ["Synthetic Data", "Technical Artist", "Computer Vision"],
+      "location": "United Kingdom"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# 網絡請求與 API 抓取
+requests>=2.31.0
+
+# LLM API (Gemini)
+google-genai>=0.1.0
+
+# 設定檔與環境變數管理
+pyyaml>=6.0.1
+python-dotenv>=1.0.1
